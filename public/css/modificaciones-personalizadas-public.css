@@ -1,0 +1,173 @@
+/* Estilos del frontend */
+
+/* Footer siempre al fondo */
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.elementor-location-footer{
+    margin-top: auto;
+}
+
+/* --> */
+
+.col-categoria{
+    padding-right: 0;
+}
+
+span[id$="container"]{
+    padding: 10px 0 !important;
+    height: 40px !important;
+}
+
+.select2-selection--single{
+    display: inline-block !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+}
+
+.post-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.um-activity-featured-img{
+    width: 70% !important;
+}
+
+.wcmp_fpm_buttons{
+    display: none; 
+}
+
+.tinv-wraper, .tinv-wishlist.tinvwl-above_thumb-add-to-cart{
+    display: none;
+}
+
+.added_to_cart.wc-forward{
+    display: none !important;
+}
+/* Ventana modal para desktop y móvil */
+#modalComplementarios, #modalComplementarios_mobile{
+    background-color: rgba(2, 2, 2, 0.566);
+    transition: all 0.7s ease !important;
+    pointer-events:none !important;
+    opacity: 0;
+}
+/* --> */
+
+/* Alinear los titulos de los productos de WoCommerce en el modal de categorías */
+.woocommerce-loop-product__title{
+	min-height:80px;
+	display:flex;
+	align-items:center;
+}
+/* --> */
+
+/* Botón para cerrar ventana modal para desktop y móvil */
+#cerrar, #cerrar_mobile{
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #fff !important;
+    opacity: 1 !important;
+}
+/* --> */
+
+/* Color de fondo y tamaño para iconos*/
+#caret-back-outline{
+    fill: #722620;
+}
+
+.ionicon{
+    width: 30px !important;
+}
+/* --> */
+
+/* Ajuste del titulo del producto en la página de producto individual del sub modal de complementos */
+.summary.entry-summary{
+    position: relative;
+    right: 40%;
+}
+
+/* Para ventanas pequeñas */
+@media only screen and (max-width: 775px){
+    .summary.entry-summary{
+        position: relative;
+        right: 0;
+        top: 35px !important;
+    }
+}
+/* --> */
+
+/* Espaciado del titulo y el menú de descripción*/
+.woocommerce-tabs.wc-tabs-wrapper{
+    margin-top: 50px;
+}
+/* --> */
+
+/* Tamaño de fuente para la caja de texto de los mensajes */
+#um_message_text{
+    font-size: 17px !important;
+}
+
+/* Barra de perfil y botones */
+.um-profile-nav{
+    background: #722620 !important;
+}
+
+.um-profile-nav-item.active a, .um.um-profile-nav-item.active a:hover{
+    background: #9f4039 !important;
+}
+/* --> */
+
+/* Segidores y seguidos */
+.um-followers-rc a.current, .um-followers-rc a span{
+    color: #999999 !important;
+}
+
+.um-followers-rc a.current, .um-followers-rc a.current span{
+    color: #722620 !important;
+}
+
+.um-unfollow-btn.um-button{
+    background: #722620 !important;
+}
+/* --> */
+
+/* Tuerca de opciones de perfil */
+.um-profile-headericon a:hover{
+    color: #722620 !important;
+}
+/* --> */
+
+/* Color de fondo para el botón de compra en el navegador Safari y el botón de subir libro cuando no tiene bookcoin. */
+#modper_add_to_cart{
+    background-color: #722620;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -webkit-appearance: none;
+}
+
+#modper_add_to_cart_mobile{
+    background-color: #722620;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -webkit-appearance: none;
+}
+
+#subirLibro{
+    background-color: #722620;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -webkit-appearance: none;
+}
+
+#subirLibro_mobile{
+    background-color: #722620;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -webkit-appearance: none;
+}
+/* --> */
+
+
+
+
